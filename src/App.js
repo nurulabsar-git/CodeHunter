@@ -10,13 +10,13 @@ import HomePage from './Components/HomeComponents/HomePage/HomePage';
 function App() {
   return (
     <div className="App">
+     <Router>
       <Switch>
-        <Router>
            <Route path="/">
              <HomePage></HomePage>
            </Route>
-        </Router>
       </Switch>
+      </Router>
     </div>
   );
 }
