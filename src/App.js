@@ -6,16 +6,17 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import HomePage from './Components/HomeComponents/HomePage/HomePage';
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route>
-           <Router>
-             
-           </Router>
+     <Router>
+     <Switch>
+        <Route exact path="/">
+           <HomePage/>
         </Route>
       </Switch>
+     </Router>
     </div>
   );
 }
