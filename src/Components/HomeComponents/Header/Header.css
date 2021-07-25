@@ -1,0 +1,18 @@
+.common-feature{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid darkcyan;
+    }
+
+.form-style{
+    margin-top: '40px'
+} 
+
+.text-decorations{
+    text-decoration: none;
+}
