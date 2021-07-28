@@ -8,6 +8,7 @@ import HomePage from './Components/HomeComponents/HomePage/HomePage';
 import Header from './Components/HomeComponents/Header/Header';
 import Courses from './Components/HomeComponents/Shop/Courses/Courses';
 import CourseDetails from './Components/HomeComponents/Shop/Courses/CourseDetails';
+import Navbar from './Components/HomeComponents/Header/Navbar/Navbar';
 function App() {
   return (
     <div>
@@ -15,7 +16,9 @@ function App() {
        <Header/>
      <Switch>
         <Route exact path="/">
+          <Navbar/>
            <HomePage/>
+           
         </Route>
         <Route path="/courses">
             <Courses/>
