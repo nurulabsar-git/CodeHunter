@@ -7,6 +7,7 @@ const CourseDetails = () => {
     const style= {
         textAlign: 'center',
         padding: '50px',
+        
      }
     return (
         <Container style={style}>
