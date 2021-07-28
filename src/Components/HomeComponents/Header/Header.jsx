@@ -55,8 +55,8 @@ const Header = () => {
             <Link to="/discuss" className="text-decorations">
             <li className="common-feature">Discuss</li>
             </Link>
-            <Link to="/blog" className="text-decorations">
-            <li className="common-feature">Blog</li>
+            <Link to="/courses" className="text-decorations">
+            <li className="common-feature">Courses</li>
             </Link>
             <Link to="/getPro" className="text-decorations">
             <li className="common-feature">Get Pro</li>
