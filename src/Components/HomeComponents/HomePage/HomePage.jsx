@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import logo from '../../images/et.png';
+// dbUSER: eShopStore , PASSWORD: eShopStoreB@ngladesh1209 
 const homeData=[
     {
        name: 'Food', 
