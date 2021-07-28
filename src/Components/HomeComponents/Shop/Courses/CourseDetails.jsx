@@ -11,7 +11,7 @@ const CourseDetails = () => {
      }
     return (
         <Container style={style}>
-          <h4 className="p-5">This is course {courseId} details page</h4> 
+          <h4 className="p-5 m-2">This is course {courseId} details page</h4> 
           <iframe width="560" height="315" src="https://www.youtube.com/embed/kiUGf_Z08RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </Container>
     );
