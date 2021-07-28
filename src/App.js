@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,11 +15,11 @@ function App() {
     <div>
      <Router>
        <Header/>
+       
      <Switch>
         <Route exact path="/">
           <Navbar/>
            <HomePage/>
-           
         </Route>
         <Route path="/courses">
             <Courses/>

@@ -17,3 +17,13 @@
     text-decoration: none;
 } 
 
+.custom-navbar-container{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-navbar-container{
+        display: block;
+    }
+
+  }
