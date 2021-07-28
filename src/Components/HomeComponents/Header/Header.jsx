@@ -34,7 +34,7 @@ const Header = () => {
 
     return (
         <div>
-        <div style={{borderRadius: '5px', padding: '5px'}}> <button onClick={openModal} style={{borderRadius: '8px'}} ><i style={{ width: '50px'}} className="fa fa-align-justify" aria-hidden="true"></i></button></div>
+        <div className="custom-navbar-container" style={{borderRadius: '5px', padding: '5px'}}> <button onClick={openModal} style={{borderRadius: '8px'}} ><i style={{ width: '50px'}} className="fa fa-align-justify" aria-hidden="true"></i></button></div>
         <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
